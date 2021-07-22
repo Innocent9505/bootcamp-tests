@@ -1,7 +1,10 @@
 describe('The greet function' , function(){
-    it('should take someones name and return Hello plus name' , function(){
-        assert.equal(greet('Bob'), 'Hello, Bob');
-        assert.equal(greet('Sam'), 'Hello, Sam');
+    it('should return "Hello Nhlanhla" when i greet Nhlanhla' , function(){
+        assert.equal(greet('Nhlanhla'), 'Hello, Nhlanhla');
+    });
+
+    it('should return "Hello Innocent" when i greet Innocent' , function(){
+        assert.equal(greet('Innocent'), 'Hello, Innocent');
 
     });
 });
